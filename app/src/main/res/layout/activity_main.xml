@@ -12,25 +12,20 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/email"
-            android:layout_width="wrap_content"
+        <Button
+            android:id="@+id/button_getpos"
+            style="@style/Button1"
+            android:layout_width="342dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:gravity="center"
-            android:textSize="13sp"
-            android:padding="8dp"
-            android:text="email" />
+            android:layout_marginTop="16dp"
+            android:text="Get Location" />
 
         <TextView
-            android:id="@+id/usename"
+            android:id="@+id/Locationxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:textSize="13sp"
-            android:padding="8dp"
-            android:text="usename" />
+            android:text=" "/>
 
         <Button
             android:id="@+id/button_logout"
